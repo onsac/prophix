@@ -80,7 +80,7 @@
      <img src="https://github.com/onsac/prophix/blob/main/Imagens/11%20-%20prophix-gtw%20%2B%20AD%20Local.jpeg" >
 </p>
 
-## Usuário criado AD Local
+## Usuário sincronizado com AD Local
 
 <p align="center">
      <img src="https://github.com/onsac/prophix/blob/main/Imagens/12%20-%20AD%20Local.jpeg" >
