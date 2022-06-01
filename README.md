@@ -56,7 +56,7 @@
      <img src="https://github.com/onsac/prophix/blob/main/Imagens/7%20-%20Login%20(prophix-gtw).jpeg" >
 </p>
 
-## Redirect para url (obs podemos configurar qualquer url)
+## Redirect para url (obs.: podemos configurar qualquer url)
 
 <p align="center">
      <img src="https://github.com/onsac/prophix/blob/main/Imagens/8%20-%20Redirect%20para%20url%20(obs%20podemos%20configurar%20qualquer%20url).jpeg" >
