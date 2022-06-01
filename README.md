@@ -25,3 +25,9 @@
 <p align="center">
      <img src="https://github.com/onsac/prophix/blob/main/Imagens/2%20-%20Prophix-Broker.jpeg" >
 </p>
+
+## Client prophix-gtw
+
+<p align="center">
+     <img src="https://github.com/onsac/prophix/blob/main/Imagens/3%20-%20Client%20prophix-gtw.jpeg" >
+</p>
