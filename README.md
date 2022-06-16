@@ -134,7 +134,11 @@ sudo systemctl start pm2-phgtw
      <img src="https://github.com/onsac/prophix/blob/main/Imagens/Keyclok_Solicita%C3%A7%C3%A3o_para_configura%C3%A7%C3%A3o_do_Identity_Provider.jpeg" >
 </p>
 
+>Enviar arquivo keycloak-prophix-broker-openid-configuration.json para TOTVS
+
 ## Configuração do Client (Integração com Keycloak Sebrae)
 <p align="center">
      <img src="https://github.com/onsac/prophix/blob/main/Imagens/Keycloy_Configura%C3%A7%C3%A3o_%20do_Client.jpeg" >
 </p>
+
+>Enviar o Client ID e Secret para TOTVS
