@@ -101,4 +101,7 @@ Removes the password (paraphrase) from the extracted private key (optional):
 ```sh
 openssl rsa -in key.pem -out server.key
 ```
-
+## Certificados Configurados
+<p align="center">
+     <img src="https://github.com/onsac/prophix/blob/main/Imagens/Keyclock_Certificados_Configurados.jpeg" >
+</p>
