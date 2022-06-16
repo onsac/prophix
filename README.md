@@ -86,3 +86,19 @@
      <img src="https://github.com/onsac/prophix/blob/main/Imagens/12%20-%20AD%20Local.jpeg" >
 </p>
 
+## Configuração do Certificado
+
+To convert a PFX file to separate public and private key PEM files:
+Extracts the private key form a PFX to a PEM file:
+```sh
+openssl pkcs12 -in filename.pfx -nocerts -out key.pem
+```
+Exports the certificate (includes the public key only):
+```sh
+openssl pkcs12 -in filename.pfx -clcerts -nokeys -out cert.pem
+```
+Removes the password (paraphrase) from the extracted private key (optional):
+```sh
+openssl rsa -in key.pem -out server.key
+```
+
