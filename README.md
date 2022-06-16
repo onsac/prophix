@@ -105,3 +105,20 @@ openssl rsa -in key.pem -out server.key
 <p align="center">
      <img src="https://github.com/onsac/prophix/blob/main/Imagens/Keyclock_Certificados_Configurados.jpeg" >
 </p>
+
+## Configurando prophix gateway como serviço
+```sh
+sudo su - phgtw
+
+pm2 start /opt/prophix-gtw/prophix-gtw/prophix-gtw.js
+
+pm2 startup
+
+sudo env PATH=$PATH:/opt/prophix-gtw/.nvm/versions/node/v11.15.0/bin /opt/prophix-gtw/.nvm/versions/node/v11.15.0/lib/node_modules/pm2/bin/pm2 startup systemd -u phgtw --hp /opt/prophix-gtw
+
+exit
+
+sudo systemctl enable pm2-phgtw
+
+sudo systemctl start pm2-phgtw
+```
