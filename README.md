@@ -122,3 +122,17 @@ sudo systemctl enable pm2-phgtw
 
 sudo systemctl start pm2-phgtw
 ```
+## Serviço Configurado
+
+<p align="center">
+     <img src="https://github.com/onsac/prophix/blob/main/Imagens/Keyclock_Servi%C3%A7o_Configurado.jpeg" >
+</p>
+## Solicitação para configuração do Identity Provider (Integração com Keycloak Prophix com Keycloak Sebrae)
+<p align="center">
+     <img src="https://github.com/onsac/prophix/blob/main/Imagens/Keyclok_Solicita%C3%A7%C3%A3o_para_configura%C3%A7%C3%A3o_do_Identity_Provider.jpeg" >
+</p>
+
+## Configuração do Client (Integração com Keycloak Sebrae)
+<p align="center">
+     <img src="https://github.com/onsac/prophix/blob/main/Imagens/Keycloy_Configura%C3%A7%C3%A3o_%20do_Client.jpeg" >
+</p>
